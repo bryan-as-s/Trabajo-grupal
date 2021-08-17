@@ -1,0 +1,36 @@
+body{
+	display: flex;
+}
+.cursos{
+	display: grid;
+	margin-left: 12px;
+	grid-gap: 20px 20px;
+	width: 100%;
+	grid-template-columns: repeat(2, 1fr);
+	justify-items: center;
+}
+.C1{
+	background-color: #48e;
+	max-width: 600px;
+	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.C1 h4{
+	color: #fff;
+	font-size: 30px;
+}
+.C1 a{
+	background-color: #000;
+	color: #fff;
+	text-decoration: none;
+	margin: auto;
+	height: 40px;
+	width: 200px;
+	text-align: center;
+	font-size: 18px;
+	padding-top: 5px;
+}
+.C1 p{
+	padding: 0 15px;
+}
