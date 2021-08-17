@@ -1,0 +1,11 @@
+<?php 
+
+	$conexion = mysqli_connect("localhost", "root", "", "login_register_db");
+
+	// if ($conexion) {
+	// 	echo 'Conectado';
+	// }else {
+	// 	echo 'no se ha podido conectar ';
+	// }
+
+?>
